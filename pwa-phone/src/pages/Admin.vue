@@ -78,7 +78,7 @@
 import { ref } from 'vue'
 
 const log = ref<string[]>([])
-const ws = new WebSocket('ws://localhost:3000')
+const ws = new WebSocket('ws://wss.wazowskii.ru')
 
 ws.onopen = () => {
   log.value.push('Подключено к серверу')
