@@ -91,7 +91,7 @@ onBeforeUnmount(() => {
 })
 
 const playerId = getPlayerId()
-const ws = new WebSocket('ws://localhost:3000')
+const ws = new WebSocket('ws://wss.wazowskii.ru')
 
 const incomingCall = ref<{ callerName: string } | null>(null)
 const qteRelax = ref<{ difficult: number } | null>(null)
