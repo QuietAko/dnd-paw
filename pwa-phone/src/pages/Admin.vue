@@ -103,7 +103,7 @@ function sendCall() {
     return
   }
   const msg = {
-    type: 'incomingCall',
+    type: 'incoming-call',
     playerId: callPlayer.value,
     callerName: callerNumber.value,
   }
